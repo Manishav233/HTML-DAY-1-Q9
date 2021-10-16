@@ -1,0 +1,45 @@
+<html>
+  <body>
+    <fieldset>
+  <legend>Form Elements</legend><br>
+  Birth Place
+  <select id="States">
+     <option value=" ">choose your state</option>
+    <option value="KA" >Karnataka </option>
+    <option value="TN"  >Tamil Nadu </option>
+    
+    
+  </select><br><br>
+  <label for="Education">Choose your Education from the list</label>
+<input list="Educations" name="edu" id="Education">
+
+<datalist id="Educations">
+  <option value="10th">
+  <option value="12th">
+  <option value="Engineering">
+  <option value="MBBS">
+</datalist><br><br>
+  
+  <label for="places">Choose a location </label>
+<select  name="places" id="places">
+  <optgroup label="Karnataka">
+    <option value="Bangalore">Bangalore</option>
+    <option value="Mysore">Mysore</option>
+  </optgroup>
+  <optgroup label="Andhra Pradesh">
+    <option value="Vishakapatnam">Vishakapatnam</option>
+    <option value="Hyderabad">Hyderabad</option>
+  </optgroup>
+</select><br><br>
+  
+  Feedback<br><textarea placeholder="Message" cols="20" rows="2">Message</textarea><br><br>
+  
+  <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  <input type="number" id="a" value="50">
+  +<input type="number" id="b" value="25">
+  =<output name="x" for="a b"></output>
+</form><br>
+  
+      <button type="button">SUBMIT</button>
+      </body>
+    </html>
